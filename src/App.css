@@ -1,0 +1,118 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #FEFEFF;
+  font-family: "Quicksand", sans-serif;
+}
+
+.NavBar {
+  text-align:center;
+  align-content: center;
+  margin:0;
+  background: white;
+  margin-bottom: 50px;
+  top: 0px;
+  width: 100%;
+  height: 75px;
+  background: white;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0.1em 0.2em 0 rgba(31, 38, 135, 0.3);
+  backdrop-filter: blur(0.3em);
+  -webkit-backdrop-filter: blur(1.5px);
+  border-radius: 0  0 2em 2em;
+}
+
+.Header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 7px;
+  width: 100%;
+
+}
+
+.title{
+  font-size: 2.5rem;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+  color: black;
+
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 30px 10px;
+  padding: 0 50px;
+  background-color: #EDF2F7;
+}
+
+.doctor {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  max-width: 320px;
+  border-radius: 15px;
+  margin: 20px;
+  padding: 50px;
+  text-align: center;
+  background-color: white;
+}
+
+.hero {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+}
+
+.hero-img {
+  width: 60%;
+  height: auto;
+}
+
+.hero-title {
+  font-size: 50px;
+  align-self:center ;
+  margin-left: 5%;
+}
+
+.doctor-img{
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+button {
+  background:    #4cab88;
+  border-radius: 11px;
+  padding:       20px 45px;
+  color:         #ffffff;
+  display:       inline-block;
+  font:          normal bold 17px/1 "Open Sans", sans-serif;
+  text-align:    center;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background:    #008755;
+  
+}
+
+button:disabled {
+  background:    #cccccc;
+  padding:       20px 20px;
+  cursor: auto;
+}
+
+.fa-star {
+  color: #FFD43B;
+}
+
+.book-appointment {
+  margin: 0;
+  padding-top:20px; 
+  text-align: center;
+  background-color: #EDF2F7;
+}
